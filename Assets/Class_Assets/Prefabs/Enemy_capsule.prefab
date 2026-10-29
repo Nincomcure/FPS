@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 4880845996350189772}
   - component: {fileID: 8196504600529303458}
   - component: {fileID: 8684492399361822047}
+  - component: {fileID: 8743002991184951257}
   - component: {fileID: 2960632773522353973}
   - component: {fileID: 8449600097509973855}
-  - component: {fileID: 6767333848242003764}
+  - component: {fileID: 8394068052032536911}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,6 +95,28 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &8743002991184951257
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775612754165598155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5ca4d68b2b02b14ca3ba27c8df88c2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!136 &2960632773522353973
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -139,7 +162,7 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &6767333848242003764
+--- !u!114 &8394068052032536911
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +171,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 775612754165598155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1df3980d9ae4af4d94f3a8d964d54fc, type: 3}
+  m_Script: {fileID: 11500000, guid: d336364242bc1a744b102be38bd920f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   target: {fileID: 0}
