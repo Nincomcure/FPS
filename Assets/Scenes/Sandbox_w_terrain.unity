@@ -14,8 +14,8 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0, g: 0.15620273, b: 0.26415092, a: 0.09803922}
+  m_Fog: 1
+  m_FogColor: {r: 0.12384299, g: 0.13721515, b: 0.21698111, a: 0.09803922}
   m_FogMode: 3
   m_FogDensity: 0.05
   m_LinearFogStart: 0
@@ -201,7 +201,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: be9c0e0998c103745b44c47ab0c5f047, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 100
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -1003,7 +1003,7 @@ Transform:
   m_GameObject: {fileID: 1763689353}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.13600004, z: 0.331}
+  m_LocalPosition: {x: 0, y: -0.16, z: 1.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1048,11 +1048,11 @@ Light:
   m_Enabled: 1
   serializedVersion: 13
   m_Type: 0
-  m_Color: {r: 1, g: 0.88885117, b: 0.3915094, a: 1}
-  m_Intensity: 10
-  m_Range: 1000
-  m_SpotAngle: 179
-  m_InnerSpotAngle: 63.659912
+  m_Color: {r: 0.39215684, g: 0.85241413, b: 1, a: 1}
+  m_Intensity: 50
+  m_Range: 10000
+  m_SpotAngle: 104.93104
+  m_InnerSpotAngle: 7.2264175
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
     m_Type: 0
